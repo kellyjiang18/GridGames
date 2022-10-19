@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns:150px auto;
+  grid-template-rows:50px 50px 300px 50px;
+}
+
+#navbar {
+  grid-column:span 2;
+}
+
+#sidebar {
+  writing-mode: vertical-rl;
+  grid-row:span 2;
+}
+
+#title {
+  grid-column-end:span 1;
+}
+
+
+#content {
+  grid-column-end:span 1
+}
+
+#footer {
+  grid-column: span 2;
+}
